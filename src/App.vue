@@ -103,6 +103,19 @@ export default {
   z-index: -1;
 }
 .full-page {
+  position: relative;
+  z-index: 1;
+}
+
+.full-page::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: .8; 
+  z-index: 0;
   background-image: url('~@/assets/crowd_bg.jpg');
   /* background-position: center center; */
   background-repeat: no-repeat;
