@@ -30,15 +30,6 @@
               src="@/assets/party.webp"
             ></v-img>
           </v-col>
-          <v-row>
-            <v-col>
-              <v-img
-                style="object-fit: contains;"
-                height="600px"
-                src="@/assets/dancing.webp"
-              ></v-img>
-            </v-col>
-          </v-row>
         </v-row>
       </v-container>
     </v-container>
