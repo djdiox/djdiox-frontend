@@ -3,7 +3,7 @@
     <v-container>
       <v-row>
         <h1>Welcome to my page!</h1>
-        <p>Enjoy the best beats, and feel welcomed!</p>
+        <p>A very heartly welcome from Stuttgart, enjoy finest house & techno!</p>
       </v-row>
       <v-container
         style="justify-content: center; margin-top: 20px; margin-bottom: 50px;"

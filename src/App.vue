@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="full-page">
     <main>
       <!-- <v-card class="overflow-hidden"> -->
 
@@ -101,5 +101,11 @@ export default {
 }
 .bg-vid {
   z-index: -1;
+}
+.full-page {
+  background-image: url('~@/assets/crowd_bg.jpg');
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
