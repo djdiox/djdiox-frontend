@@ -22,8 +22,7 @@
             <v-card style="margin-top: 150px;">
               <v-card-text>
                 I started DJing 2014 and never stopped it ever since than. I
-                love nearly any kind of music and so are my mixes
-                every-changing. My Signature are Cross-Over Mixes
+                love nearly any kind of music, so there is some kind of track for every musiclover! My signature mixes are Genre Cross-Over
               </v-card-text>
             </v-card>
           </v-hover>

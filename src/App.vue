@@ -35,7 +35,7 @@
         <router-view></router-view>
       </v-container>
     </main>
-    <footer>
+    <footer style="padding-top: 150px;">
       <!-- <v-card class="mx-auto overflow-hidden" height="200" max-width="500"> -->
       <v-bottom-navigation
         fixed
