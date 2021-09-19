@@ -7,10 +7,17 @@
       @onCreateAccount="onCreateAccount"
     />
 
-    <section style="color:white;">
+    <section style="color:black;">
       <h2>Blog/News</h2>
       <p>
         Here I / we will share news about new gigs and sets!
+      </p>
+      <p>
+        Current gigs:
+        <ul>
+          <li><a href="https://www.germandjcontest.de/?page=pages/anmeldung">GermanDJContest</a> (House Stage) @ <a href="oinmarketcap.com/?utm_source=androidappinstallbanner"> L1 Leipzig</a><a href="https://www.germandjcontest.de/?page=pages/dates">  on 15-16.10.22</a></li>
+          <li>Next Bookings & Releases in September</li>
+        </ul>
       </p>
      <!--  <p>
         Render pages with mock data. This makes it easy to build and review page states without
