@@ -15,7 +15,7 @@
       <p>
         Current gigs:
         <ul>
-          <li><a href="https://www.germandjcontest.de/?page=pages/anmeldung">GermanDJContest</a> (House Stage) @ <a href="oinmarketcap.com/?utm_source=androidappinstallbanner"> L1 Leipzig</a><a href="https://www.germandjcontest.de/?page=pages/dates">  on 15-16.10.22</a></li>
+          <li><a href="https://www.germandjcontest.de/?page=pages/anmeldung">GermanDJContest</a> (House Stage)@<a href="https://club-l1.de/">L1 Leipzig</a><a href="https://www.germandjcontest.de/?page=pages/dates"> on 15-16.10.22</a></li>
           <li>Next Bookings & Releases in September</li>
         </ul>
       </p>
