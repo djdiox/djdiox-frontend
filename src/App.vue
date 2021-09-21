@@ -47,31 +47,31 @@
         scroll-threshold="500"
       >
         <v-btn>
-          <router-link :to="'home'" custom>
+          <router-link :to="'/home'" custom>
             <span>Home</span>
             <v-icon>mdi-home</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'about'" custom>
+          <router-link :to="'/about'" custom>
             <span>About me</span>
             <v-icon>mdi-heart</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'music'" custom>
+          <router-link :to="'/music'" custom>
             <span>Music</span>
             <v-icon>mdi-music</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'gigs'" custom>
+          <router-link :to="'/gigs'" custom>
             <span>Gigs</span>
             <v-icon>mdi-map-marker</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'crypto'" custom>
+          <router-link :to="'/crypto'" custom>
             <span>Crypto</span>
             <v-icon>mdi-cash</v-icon>
           </router-link>
