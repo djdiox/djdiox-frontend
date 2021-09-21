@@ -47,27 +47,33 @@
         scroll-threshold="500"
       >
         <v-btn>
-          <router-link :to="'Home'" custom>
+          <router-link :to="'home'" custom>
             <span>Home</span>
             <v-icon>mdi-home</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'About'" custom>
+          <router-link :to="'about'" custom>
             <span>About me</span>
             <v-icon>mdi-heart</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'Music'" custom>
+          <router-link :to="'music'" custom>
             <span>Music</span>
             <v-icon>mdi-music</v-icon>
           </router-link>
         </v-btn>
         <v-btn>
-          <router-link :to="'Gigs'" custom>
+          <router-link :to="'gigs'" custom>
             <span>Gigs</span>
             <v-icon>mdi-map-marker</v-icon>
+          </router-link>
+        </v-btn>
+        <v-btn>
+          <router-link :to="'crypto'" custom>
+            <span>Crypto</span>
+            <v-icon>mdi-cash</v-icon>
           </router-link>
         </v-btn>
       </v-bottom-navigation>
@@ -76,6 +82,7 @@
     </footer>
     <video
       class="bg-vid"
+      v-if="$route.name == 'music'"
       autoplay
       loop
       muted
@@ -102,22 +109,11 @@ export default {
 .bg-vid {
   z-index: -1;
 }
-.full-page {
-  position: relative;
-  z-index: 1;
-}
-
-.full-page::before {
-  content: "";
-  position: absolute;
-  top: 0; 
-  left: 0;
-  width: 100%; 
-  height: 100%;  
-  opacity: .8; 
-  z-index: 0;
+body {
+  /* position: relative; */
+  /* z-index: 1; */
+  height: 100vh;
   background-image: url('~@/assets/crowd_bg.jpg');
-  /* background-position: center center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
