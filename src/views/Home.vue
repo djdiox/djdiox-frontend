@@ -2,8 +2,8 @@
   <div class="home page">
     <v-container>
       <v-row>
-        <h1>Welcome to my page!</h1>
-        <p>A very heartly welcome from Stuttgart, enjoy finest house & techno!</p>
+        <h1 style="color:white;">Welcome to my page!</h1>
+        <p style="color:white;margin-top:5px;margin-left:5px">A very heartly welcome from Stuttgart, enjoy finest house & techno!</p>
       </v-row>
       <v-container
         style="justify-content: center; margin-top: 20px; margin-bottom: 50px;"
