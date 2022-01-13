@@ -1,48 +1,58 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Crypto from '../views/Crypto.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    component: Home,
   },
   {
     path: '/home',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    component: Home,
+  },
+  {
+    path: '/crypto',
+    name: 'crypto',
+    component: Crypto,
   },
   {
     path: '/about',
-    name: 'About',
+    name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
     path: '/gigs',
-    name: 'Gigs',
+    name: 'gigs',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Gigs.vue')
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/Gigs.vue'),
   },
   {
     path: '/music',
-    name: 'Music',
+    name: 'music',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Music.vue')
-  }
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/Music.vue'),
+  },
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history',
 })
 
 export default router
