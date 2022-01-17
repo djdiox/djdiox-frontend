@@ -5,7 +5,7 @@
 
       <v-app-bar
         :collapse="false"
-        style="background-color: rgb(35, 35, 35); z-index: 1;"
+        style="background-color: rgb(35, 35, 35); z-index: 1"
         :collapse-on-scroll="true"
         color="deep-purple accent-4"
         dark
@@ -16,7 +16,7 @@
         </v-app-bar-nav-icon>
         <v-app-bar-icon>
           <img
-            style="height: 50px; margin-right: 10px;"
+            style="height: 50px; margin-right: 10px"
             src="./assets/logo.webp"
             alt="logo"
           />
@@ -29,17 +29,17 @@
         <v-btn>Gigs!</v-btn>
         <v-btn>Contact!</v-btn> -->
       </v-app-bar>
-      <v-container style="z-index: 10;">
+      <v-container style="z-index: 10">
         <!-- route outlet -->
         <!-- component matched by the route will render here -->
         <router-view></router-view>
       </v-container>
     </main>
-    <footer style="padding-top: 150px;">
+    <footer style="padding-top: 150px">
       <!-- <v-card class="mx-auto overflow-hidden" height="200" max-width="500"> -->
       <v-bottom-navigation
         fixed
-        style="bottom: 0;"
+        style="bottom: 0"
         color="white"
         hide-on-scroll
         horizontal
@@ -86,7 +86,7 @@
       autoplay
       loop
       muted
-      style="position: absolute; top: 0;"
+      style="position: absolute; top: 0"
     >
       <source src="./assets/loop.mp4" type="video/mp4" />
       Your browser does not support the video tag.
@@ -98,11 +98,11 @@ export default {
   model: () => {
     return {
       collapseOnScroll: false,
-    }
+    };
   },
-}
+};
 </script>
-<style>
+<style lang="scss">
 .page {
   z-index: 10;
 }
@@ -113,7 +113,7 @@ body {
   /* position: relative; */
   /* z-index: 1; */
   height: 100vh;
-  background-image: url('~@/assets/crowd_bg.jpg');
+  background-image: url("~@/assets/crowd_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

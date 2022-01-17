@@ -2,6 +2,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      {
         test: /\.s(c|a)ss$/,
         use: [
           'vue-style-loader',
